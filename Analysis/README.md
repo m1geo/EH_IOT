@@ -12,6 +12,6 @@ Other files are either to automate the process, since the computation takes a wh
 
 `min_kl.m` and `KLDiv.m` are the minimising (for the GA) and calculation scripts for KL-Divergence.
 
-The other files are for taking the raw CSV files from the data-logger (see ../Testbed folder), removing inactive periods.
+The other files are for taking the raw CSV files from the data-logger (see ../Testbed folder), removing inactive periods. Some of the scripts are not useful, since the raw processing has been done and only the trimmed tidied datafiles are presented here.
 
 They should be easy enough to follow, and any functions can be checked on the Mathworks site.
