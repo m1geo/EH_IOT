@@ -151,10 +151,10 @@ void loop()
   int Therm = analogRead(A2);
   int Piezo = analogRead(A3);
   
-  if (Solar > 0) {digitalWrite(LEDA, LOW);} else {digitalWrite(LEDA, HIGH);}
-  if (Diode > 0) {digitalWrite(LEDB, LOW);} else {digitalWrite(LEDB, HIGH);}
-  if (Therm > 0) {digitalWrite(LEDC, LOW);} else {digitalWrite(LEDC, HIGH);}
-  if (Piezo > 0) {digitalWrite(LEDD, LOW);} else {digitalWrite(LEDD, HIGH);}
+  if (Solar > 0) {digitalWrite(LEDA, HIGH);} else {digitalWrite(LEDA, LOW);}
+  if (Diode > 0) {digitalWrite(LEDB, HIGH);} else {digitalWrite(LEDB, LOW);}
+  if (Therm > 0) {digitalWrite(LEDC, HIGH);} else {digitalWrite(LEDC, LOW);}
+  if (Piezo > 0) {digitalWrite(LEDD, HIGH);} else {digitalWrite(LEDD, LOW);}
   
   // make a string for assembling the data to log:
   String dataString = "";
